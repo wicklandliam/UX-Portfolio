@@ -1,7 +1,6 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
 import Fancybox from "~/components/Fancybox.vue";
-
 export default defineComponent({
   name: "taskApp",
   components: {Fancybox}
@@ -10,13 +9,6 @@ export default defineComponent({
 
 <template>
   <div>
-    <Fancybox
-        :options="{
-            Carousel: {
-              infinite: false,
-            },
-          }"
-    >
       <div class="m-4 bg-white p-8 rounded-lg drop-shadow">
         <h1 class="text-2xl">Task App</h1>
         <h3>CSCI 443: User Interface Design</h3>
@@ -85,7 +77,6 @@ export default defineComponent({
           target="_blank">
           Adobe Express Link</a>
       </div>
-    </Fancybox>
   </div>
 </template>
 
