@@ -26,6 +26,8 @@
           <h3 class="text-2xl font-medium">&#x1F60E Who am I?</h3>
           <p>
             I am a senior at Montana State University, pursuing a bachelor's degree in Computer Science.  Expected graduation Spring of 2025!
+            I am originally from Columbia Falls, Montana and grew up with cows in the pasture and mountains in the backdrop.
+            I've always been interested in tinkering with things and figuring out how they work, which is what led me to computer science.
           </p>
           <h3 class="text-lg font-bold"></h3>
         </li>
