@@ -1,21 +1,12 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
-import Fancybox from "~/components/Fancybox.vue"
 
 export default defineComponent({
   name: "accessibilityScanner",
-  components: {Fancybox}
 })
 </script>
 
 <template>
-  <Fancybox
-      :options="{
-            Carousel: {
-              infinite: false,
-            },
-          }"
-  >
   <div>
     <div class="m-4 bg-white p-8 rounded-lg drop-shadow">
       <h1 class="text-2xl">Accessibility Scanner</h1>
@@ -68,8 +59,6 @@ export default defineComponent({
       </p>
     </div>
   </div>
-  </Fancybox>
-
 </template>
 
 <style scoped>

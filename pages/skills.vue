@@ -1,16 +1,8 @@
 <script setup>
-import {defineComponent} from 'vue'
-import Fancybox from "~/components/Fancybox.vue";
 </script>
 
 <template>
-  <Fancybox
-      :options="{
-            Carousel: {
-              infinite: false,
-            },
-          }"
-  >
+  <div>
   <div>
     <div class="m-4 bg-white p-8 rounded-lg drop-shadow">
       <h2 class="pb-4 text-2xl">Languages</h2>
@@ -152,9 +144,8 @@ import Fancybox from "~/components/Fancybox.vue";
         </div>
       </div>
     </div>
-      <p>Pssst.. any image can be clicked on for a better look.</p>
   </div>
-  </Fancybox>
+  </div>
 </template>
 
 <style scoped>

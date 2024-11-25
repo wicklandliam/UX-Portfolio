@@ -1,9 +1,7 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
-import Fancybox from "~/components/Fancybox.vue";
 export default defineComponent({
   name: "taskApp",
-  components: {Fancybox}
 })
 </script>
 

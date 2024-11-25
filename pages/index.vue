@@ -1,13 +1,7 @@
 <template>
   <div class="flex m-4 bg-white p-8 rounded-lg drop-shadow">
     <div class="justify-items-center w-1/4">
-      <Fancybox
-          :options="{
-            Carousel: {
-              infinite: false,
-            },
-          }"
-      >
+      <div>
       <img class="rounded-full w-full" src="/assets/images/Liam%20Wickland%20LinkedIn.jpeg" alt="Picture of Liam Wickland">
       <h2 class="text-3xl py-2 text-center">About Me</h2>
       <div class="w-full">
@@ -24,7 +18,7 @@
             <a class="bg-blue-600 hover:bg-blue-500 text-white text-lg py-1 px-3 rounded-lg mx-auto" data-fancybox="gallery" href="/Liam%20Wickland%20Resume.pdf">Resume</a>
           </div>
       </div>
-      </Fancybox>
+    </div>
     </div>
     <div class="ml-8 w-3/4 flex">
       <ul class="my-auto">
@@ -51,5 +45,4 @@
   </div>
 </template>
 <script setup lang="ts">
-import Fancybox from "~/components/Fancybox.vue";
 </script>
