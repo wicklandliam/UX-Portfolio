@@ -1,8 +1,6 @@
 <script>
-import pkg from "@fancyapps/ui";
+import { Fancybox } from "@fancyapps/ui";
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
-
-const { Fancybox } = pkg;
 
 export default {
   props: {
